@@ -6,6 +6,9 @@ metadata:
 type: application
 builder:
   customTasks:
+    # 👉 build: módulos npm
+    - name: ui5-tooling-modules-task
+      afterTask: replaceVersion
     - name: ui5-tooling-transpile-task
       afterTask: replaceVersion
       configuration:
