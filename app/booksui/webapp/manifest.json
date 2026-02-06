@@ -35,6 +35,15 @@
             "parameters": {},
             "additionalParameters": "allowed"
           }
+        },
+        "booksui-display": {
+          "semanticObject": "booksui",
+          "action": "display",
+          "title": "{{booksui-display.flpTitle}}",
+          "signature": {
+            "parameters": {},
+            "additionalParameters": "allowed"
+          }
         }
       }
     }

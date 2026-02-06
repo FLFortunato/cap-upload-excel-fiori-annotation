@@ -2,7 +2,6 @@ import MessageToast from "sap/m/MessageToast";
 import type Event from "sap/ui/base/Event";
 import Fragment from "sap/ui/core/Fragment";
 import ControllerExtension from "sap/ui/core/mvc/ControllerExtension";
-import * as testXlsx from "xlsx";
 declare const XLSX: any;
 
 export default ControllerExtension.extend(
@@ -11,7 +10,6 @@ export default ControllerExtension.extend(
     oDialogFragment: undefined as Fragment,
 
     onUploadExcel(oEvent: Event) {
-      console.log("=============>", testXlsx);
       if (!this.oDialogFragment) {
         Fragment.load({
           name: "booksui.ext.fragment.UploadExcelDialog",

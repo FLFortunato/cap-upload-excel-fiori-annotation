@@ -1,4 +1,4 @@
-using CatalogService as service from '../../srv/cat-service';
+using CatalogService as service from '../../srv/service';
 annotate service.Books with @(
     UI.LineItem : [
         {
