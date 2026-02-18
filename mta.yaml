@@ -75,7 +75,8 @@ modules:
       commands:
         - npm install
         - npm run build:cf
-      supported-platforms: []
+      supported-platforms:
+        []
 resources:
   - name: booksui-auth
     type: org.cloudfoundry.managed-service
